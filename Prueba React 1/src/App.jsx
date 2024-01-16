@@ -3,7 +3,6 @@ import "./App.css";
 import Navigation from "./components/Navbar";
 import { rickAndMortyData } from "./components/MiApi";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BodyOnlyExample from "./components/Card";
 
 function App() {
   const [personajes, setPersonajes] = useState([]);
@@ -33,7 +32,6 @@ function App() {
   return (
     <>
       <Navigation></Navigation>
-      <BodyOnlyExample></BodyOnlyExample>
       <h1>Rick and Morty</h1>
       <input
         type="text"
